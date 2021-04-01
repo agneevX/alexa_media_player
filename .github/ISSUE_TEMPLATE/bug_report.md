@@ -7,31 +7,53 @@ assignees: ''
 
 ---
 
-**Describe the bug**
+## Bug report
+
+### Describe the bug
+
 A clear and concise description of what the bug is.
 
-**To Reproduce**
+### To Reproduce
+
 Steps to reproduce the behavior:
 1. Go to '...'
 2. Click on '....'
 3. Scroll down to '....'
 4. See error
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+### Expected behavior
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+<!-- A clear and concise description of what you expected to happen. -->
 
-**System details**
- - Home-assistant (version): 
- - Hassio (Yes/No): (Please note you may have to restart hassio 2-3 times to load the latest version of alexapy after an update. This looks like a HA bug).
- - alexa_media  (version from `const.py` or HA startup):
- - alexapy (version from `pip show alexapy` or HA startup):
- - Amazon [2FA is enabled](https://github.com/custom-components/alexa_media_player/wiki/Configuration#enable-two-factor-authentication-for-your-amazon-account) (y/n). We will not debug login issues if unanswered: 
 
-**Logs**
-Please provide [logs](https://github.com/custom-components/alexa_media_player/wiki/FAQ#how-do-i-enable-debug-logging-for-the-component). We'll be most likely asking for them anyway.
+### Screenshots
 
-**Additional context**
-Add any other context about the problem here. 
+<!-- If applicable, add screenshots to help explain your problem. --!>
+
+### System details
+
+ - Home Assistant (version): 
+ - Hass.io (Yes/No): 
+ <!-- Please note you may have to restart HA 2-3 times to load the latest version of alexapy after an update. This looks like a HA bug. -->
+ - `alexa_media`: 
+ <!-- version from `const.py` or HA startup -->
+ - `alexapy` version:
+ - <!-- from `pip show alexapy` or HA startup -->
+ - Amazon 2FA enabled: 
+ <!-- More info here: https://github.com/custom-components/alexa_media_player/wiki/Configuration#enable-two-factor-authentication-for-your-amazon-account) (y/n). --!>
+
+<!-- We will not debug login issues if unanswered -->
+
+### Logs
+
+<!-- Please provide logs. We'll be most likely asking for them anyway.
+
+<!-- More info here: https://github.com/custom-components/alexa_media_player/wiki/FAQ#how-do-i-enable-debug-logging-for-the-component -->
+
+```py
+
+```
+
+### Additional context
+
+<!-- Add any other context about the problem here. --!>
